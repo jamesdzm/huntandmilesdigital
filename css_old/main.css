@@ -1,0 +1,215 @@
+html,
+body {
+	width: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #ECF0F1;
+}
+h1,
+h2,
+h3,
+p {
+    font-weight: 300;
+}
+
+.contact-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding: 20px;
+}
+
+.socialmedia {
+    text-align: center;
+    margin: auto;
+}
+.socialmedia li {
+    color: #FFF;
+    display: inline-block;
+    margin: 0 100px;
+}
+.btn-default {
+    background-color: transparent;
+    border-color: #eb7f00;
+    border-radius: 1px;
+    color: #eb7f00;
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.btn-default:hover {
+    background-color: #eb7f00;
+    border-color: #eb7f00;
+    border-radius: 1px;
+    color: #FFF;
+}
+.btn-contact {
+    background-color: #eb7f00;
+    border-color: #eb7f00;
+    border-radius: 1px;
+    color: #ECF0F1;
+    letter-spacing: 2px;
+    font-weight: 300;
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.btn-contact:hover {
+    border-radius: 5px;
+    color: #FFF;
+}
+.btn-default:focus {
+    background-color: #eb7f00;
+    border-color: #eb7f00;
+    color: #ECF0F1;
+}
+.btn-contact:focus {
+    background-color: #eb7f00;
+    border-color: #eb7f00;
+    color: #ECF0F1;
+}
+/*
+.masthead {
+    min-height: 700px;
+    background-image: url('../img/Orange-sky-5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+*/
+/*
+.top-text {
+    text-align: center;
+    color: #fff;
+    width: 75%;
+    margin: auto;
+}
+.top-text h1 { font-size: 42px; }
+*/
+
+/*.top-text h2 { font-size: 1.5em; }*/
+
+.masthead-new {
+/*    min-height: 700px;*/
+    background-image: url('../img/Orange-sky-5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* fix iOS bug not displaying 100vh correctly */
+/* ipad */
+/*
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.fullheight {
+		height: 768px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.fullheight {
+		height: 1024px;
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+	.fullheight {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+	.fullheight {
+		height: 568px;
+	}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	.fullheight {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.fullheight {
+		height: 480px;
+	}
+}
+*/
+
+.top-text-new {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.top-text-new h1 { font-size: 42px; }
+
+/*
+.navbar-default { background-color: transparent; border-bottom-width: 0px; }
+.navbar-default .navbar-collapse { background-color: transparent; border-color: transparent; }
+.navbar-default .navbar-toggle { background-color: transparent; border-color: transparent; }
+.navbar-default .navbar-toggle:hover { background-color: transparent; }
+.navbar-default .navbar-toggle:active { background-color: transparent; }
+*/
+
+/*.blue-icon { padding: 25px 125px; }*/
+.blue-icon p { text-align: center; }
+.blue-icon h2 i { color: #225378; }
+
+#pricing .col-xs-push-4 {
+    text-align: right;
+}
+
+.portfolio-description { margin: auto; text-align: center; }
+
+#footer a {
+    color: #ECF0F1;
+    transition: all 0.5s ease-in-out;
+}
+#footer a:hover {
+    color: #ACF0F2;
+}
+
+@media only screen and (min-width: 768px) {
+    /*CSS properties for tablets (portrait)*/
+}
+
+@media only screen and (min-width: 1024px) {
+	.blue-icon p { text-align: justify; }
+	.blue-icon { padding: 25px; }
+	/*.portfolio-description { margin: auto; text-align: left; }*/
+}
+
+@media only screen and (min-width: 1200px) {
+    /*CSS properties for desktops*/
+    
+/*
+    .masthead {
+        background-attachment: fixed;
+        min-height: 700px;
+    }
+*/
+    .masthead-new {
+        background-attachment: fixed;
+/*        height: 100vh;*/
+    }
+    
+    .top-text { 
+    	width: 100%;
+    	opacity: 0; 
+    	transition: opacity 1s ease;
+    	-o-transition: opacity 1s ease;
+    	-moz-transition: opacity 1s ease;
+    	-webkit-transition: opacity 1s ease;
+    }
+/*
+    .top-text h1 {
+    	font-size: 5em;
+    }
+*/
+    .top-text-new h1 {
+    	font-size: 5em;
+    }
+}
