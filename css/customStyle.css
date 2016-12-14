@@ -5828,7 +5828,7 @@ h2,
 h3,
 h4 {
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 300; }
 
 p {
@@ -5923,30 +5923,42 @@ h1 > small {
       margin-top: 100px;
       margin-bottom: 100px; } }
 
+nav .navbar-default {
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+
 .hero_section {
   position: relative;
-  height: 100%;
+  height: 100vh;
   background-color: #e6e6e6;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% auto; }
-  @media all and (min-width: 480px) {
-    .hero_section {
-      background-image: url("../images/mobile-masthead.jpg"); } }
 
-.hero_section__content__2 {
-  text-align: left;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+.hero_section__content__3 {
+  bottom: 0;
+  right: 18%;
+  text-align: center;
   position: absolute;
-  color: #FFF; }
-  .hero_section__content__2 h1 {
+  color: #222222; }
+  .hero_section__content__3 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 46px; }
-  .hero_section__content__2 h3 {
+  .hero_section__content__3 h3 {
     font-size: 24px; }
+  .hero_section__content__3 i {
+    color: orange; }
+
+.hmdig h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 5em;
+  letter-spacing: 5px; }
+.hmdig h3 {
+  font-size: 24px; }
+.hmdig i {
+  color: #DB4105; }
 
 .hero_section__content {
   text-align: right;
@@ -6019,17 +6031,29 @@ h1 > small {
     @media all and (min-width: 992px) {
       #key-points .col-md-4 {
         padding: 50px; } }
+  #key-points h1 {
+    color: #eb7f00; }
+  #key-points h3 {
+    color: #eb7f00; }
+  #key-points i {
+    color: #777; }
   #key-points h2 {
     color: #eb7f00; }
     #key-points h2 i {
       color: #777; }
   #key-points p {
-    text-align: justify; }
+    text-align: center; }
 
 #responsive-design {
   background: #eee; }
   #responsive-design .col-md-5 > img {
     margin: auto; }
+  #responsive-design h1 {
+    color: #eb7f00; }
+  #responsive-design h3 {
+    color: #eb7f00; }
+  #responsive-design i {
+    color: #777; }
   #responsive-design .responsive-design-text {
     padding: 25px; }
     #responsive-design .responsive-design-text .orange-accent {
@@ -6038,8 +6062,6 @@ h1 > small {
     #responsive-design .responsive-design-text .row {
       margin-top: 25px;
       margin-bottom: 25px; }
-    #responsive-design .responsive-design-text i {
-      color: #777; }
     @media all and (min-width: 768px) {
       #responsive-design .responsive-design-text {
         padding: 10px 100px; } }
@@ -6179,4 +6201,4 @@ input {
   #footer a:focus .circle-color {
     color: #ff981f; }
 
-/*# sourceMappingURL=customStyle.css.map */
+/*# sourceMappingURL=customstyle.css.map */
