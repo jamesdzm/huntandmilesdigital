@@ -148,71 +148,105 @@ nav .navbar-default {
 
 .hero_section {
     position: relative;
-    height: 100vh;
-    // background-image: url('../images/Masthead_macbook.jpg');
-    background-color: #e6e6e6;
-
-
-    // background: #8e9eab; /* fallback for old browsers */
-    // background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
-    // background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    // background: #33332D; /* fallback for old browsers */
-
+    min-height: 100%;
+    background-image: url('../images/white_wall_hash.png');
+    background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
-    // background-size: cover;
+    background-repeat: repeat-y;
     background-size: 100% auto;
-    @media all and (min-width: $screen-xs-min) {
-        // background-image: url('../images/inspired2.jpg');
-        // background-image: url('../images/carcierge_browser.png');
-        // background-image: url('../images/mobile-masthead.jpg');
-    }
-    // @media all and (min-width: $screen-sm-min) {
-    //     background-image: url('../images/masthead_sm.jpg');
-    // }
-    // @media all and (min-width: $screen-md-min) {
-    //     background-image: url('../images/masthead_md.jpg');
-    // }
-    // @media all and (min-width: $screen-lg-min) {
-    //     background-image: url('../images/masthead_lg.jpg');
-    // }
 }
-.hero_section__content__3 {
-    bottom: 0;
-    right: 18%;
-    text-align: center;
-    position: absolute;
-    color: $gray-darker;
-    h1 {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-      font-size: 46px;
-    }
 
-    h3 {
-        font-size: $font-size-h3;
-    }
-    i {
-      color: orange;
-    }
+.masthead-slider--wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
+//
+// @media all and (min-width: $screen-xs-min){
+//   .masthead-slider--wrapper {
+//     width: 600px;
+//   }
+// }
+// @media all and (min-width: $screen-sm-min){
+//   .masthead-slider--wrapper {
+//     width: 800px;
+//   }
+// }
+// @media all and (min-width: $screen-md-min){
+//   .masthead-slider--wrapper {
+//     width: 1200px;
+//   }
+// }
+
+.masthead-slider {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+// @media all and (min-width: $screen-xs-min){
+//   .masthead-slider img {
+//     width: $screen-sm;
+//   }
+// }
+// @media all and (min-width: $screen-sm-min){
+//   .masthead-slider img {
+//     width: $screen-md;
+//   }
+// }
+// @media all and (min-width: $screen-md-min){
+//   .masthead-slider img {
+//     width: $screen-lg;
+//   }
+// }
+
+
 .hmdig {
+  padding-top: 200px;
     h1 {
       // font-family: 'Open Sans', sans-serif;
       font-family: 'Raleway', sans-serif;
       font-weight: 300;
-      font-size: 5em;
-      letter-spacing: 5px;
+      font-size: 6em;
+      letter-spacing: 4px;
     }
-
+    h2 {
+      letter-spacing: 1px;
+      color: $gray-light;
+    }
     h3 {
         font-size: $font-size-h3;
+        letter-spacing: 4px;
+        color: $gray-light;
     }
     i {
       color: #DB4105;
     }
 }
+@media all and (min-width: $screen-xs) {
+  .hmdig {
+    padding-top: 175px;
+  }
+}
+@media all and (min-width: $screen-sm) {
+  .hmdig {
+    padding-top: 150px;
+  }
+}
+@media all and (min-width: $screen-md) {
+  .hmdig {
+    padding-top: 115px;
+  }
+}
+@media all and (min-width: $screen-lg) {
+  .hmdig {
+    padding-top: 75px;
+  }
+}
+
 .hero_section__content {
     text-align: right;
     top: 50%;

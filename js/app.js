@@ -1,4 +1,17 @@
 $(document).ready(function() {
+	$('.masthead-slider').unslider({
+		dots: false,
+		autoplay: true,
+		infinite: true,
+		arrows: false,
+		speed : 500,
+		delay : 5000
+	});
+
+	// $('.hero_section').css({
+	// 	height: $( window ).height()
+	// });
+
 	// Hero buttons jQuery smooth scroll
 	$("#learn-more").click(function() {
     $('html, body').animate({
