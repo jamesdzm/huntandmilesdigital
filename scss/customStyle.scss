@@ -59,6 +59,8 @@ p {
     background-color: transparent;
     border-color: #eb7f00;
     border-radius: 1px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: #eb7f00;
     letter-spacing: 2px;
     transition: all 0.5s ease;
@@ -167,7 +169,8 @@ nav .navbar-default {
     // background-position: center center;
     // background-repeat: repeat-y;
     // background-size: 100% auto;
-
+    background-image: url('../images/stardust.png');
+    background-repeat: repeat;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -226,6 +229,7 @@ nav .navbar-default {
   // padding-top: 200px;
     h1 {
       // font-family: 'Open Sans', sans-serif;
+      color: #fff;
       font-family: 'Raleway', sans-serif;
       font-weight: 300;
       font-size: 6em;
@@ -242,83 +246,6 @@ nav .navbar-default {
     }
     i {
       color: #DB4105;
-    }
-}
-
-.hero_section__content {
-    text-align: right;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    color: #FFF;
-    h1 {
-        font-size: 46px;
-    }
-
-    h3 {
-        font-size: $font-size-h3;
-    }
-    @media all and (min-width: $screen-xs-min) {
-        text-align: right;
-        top: 50%;
-        left: 5%;
-        transform: translate(0, -50%);
-        // custom text size
-        h1 {
-            font-size: 46px;
-        }
-
-        h3 {
-            font-size: 16px;
-        }
-    }
-    @media all and (min-width: $screen-sm-min) {
-        text-align: right;
-        top: 50%;
-        left: 10%;
-        transform: translate(0, -50%);
-        // custom text size
-        h1 {
-            font-size: 64px;
-        }
-
-        h3 {
-            font-size: 18px;
-        }
-    }
-    @media all and (min-width: $screen-md-min) {
-        text-align: right;
-        top: 50%;
-        left: 20%;
-        transform: translate(0, -50%);
-        // custom text size
-        h1 {
-            font-size: 64px;
-        }
-
-        h3 {
-            font-size: 18px;
-        }
-    }
-    @media all and (min-width: $screen-lg-min) {
-      background-color: rgba($gray-dark, 0.5);
-      border-color: orange;
-      border-width: 1px;
-      border-style: solid;
-      border-radius: 3px;
-      text-align: center;
-      top: 90%;
-      left: 71%;
-      padding: 10px 25px;
-      // transform: translate(-50%, -50%);
-        h1 {
-            font-size: 90px;
-        }
-
-        h3 {
-            font-size: 27px;
-        }
     }
 }
 
@@ -398,36 +325,57 @@ nav .navbar-default {
 
 // SECTION: Feeling inspired
 
-#feeling-inspired {
-  color: #FFF;
-  background-attachment: scroll;
-  background-image: url('../images/inspired3_mobile.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  .section-margin {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  .title {
-    font-size: $font-size-h1;
-  }
-  @media all and (min-width: $screen-lg-min) {
-    background-attachment: fixed;
-    background-image: url('../images/inspired3.jpg');
-    .title {
-      font-size: 55px;
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      color: #fff;
     }
-    .section-margin {
-      margin-top: 200px;
-      margin-bottom: 200px;
+
+    h1 small {
+      color: darken(#fff, 10%);
     }
-  }
-  @media all and (min-width: $screen-md-min) {
-    .title {
-      font-size: $font-size-h1;
+    .btn-default-orange {
+      padding-left: 2em;
+      padding-right: 2em;
     }
-  }
 }
+
+// #feeling-inspired {
+//   color: #FFF;
+//   background-attachment: scroll;
+//   background-image: url('../images/inspired3_mobile.jpg');
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   .section-margin {
+//     margin-top: 100px;
+//     margin-bottom: 100px;
+//   }
+//   .title {
+//     font-size: $font-size-h1;
+//   }
+//   @media all and (min-width: $screen-lg-min) {
+//     background-attachment: fixed;
+//     background-image: url('../images/inspired3.jpg');
+//     .title {
+//       font-size: 55px;
+//     }
+//     .section-margin {
+//       margin-top: 200px;
+//       margin-bottom: 200px;
+//     }
+//   }
+//   @media all and (min-width: $screen-md-min) {
+//     .title {
+//       font-size: $font-size-h1;
+//     }
+//   }
+// }
 
 // SECTION: pricing
 

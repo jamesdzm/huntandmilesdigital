@@ -10,14 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/customStyle.css" type='text/css'>
-    <link rel="stylesheet" href="css/unslider.css" type='text/css'>
-    <link rel="stylesheet" href="css/unslider-dots.css" type='text/css'>
 
     <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -28,7 +24,7 @@
 <body>
     <div class="hero_section">
         <!-- <div class=""> -->
-            <div class="hmdig text-center">
+            <div class="hmdig text-center container">
                 <h1><strong><span style="font-weight: 700">HM</span></strong><span style="color: #eb7f00;">DIGITAL</span></h1>
                 <h3>BESPOKE - MODERN - PROFESSIONAL</h3>
             </div>
@@ -116,7 +112,8 @@
         </div>
     </section>
 
-    <section id="feeling-inspired">
+    <!-- <section id="feeling-inspired">
+      <div class="parallax-window">
         <div class="container">
             <div class="section-margin">
                 <h1 class="text-center title">ARE YOU READY TO GET STARTED?<br>
@@ -125,7 +122,15 @@
             </div>
         </div>
         </div>
-    </section>
+    </section> -->
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/inspired3.jpg">
+      <div class="container">
+          <h1 class="text-center title">ARE YOU READY TO GET STARTED?<br>
+          <small>Contact us to discuss ideas and begin your journey</small></h1>
+          <h1 class="text-center"><button id="inspired-contact-us" class="btn btn-default-orange btn-lg">Contact us</button></h1>
+      </div>
+    </div>
 
     <section id="pricing-section">
         <div class="container section-margin">
@@ -135,22 +140,28 @@
             <br><br>
             <div class="col-md-4">
                 <div class="">
-                    <h3><i class="fa fa-file-o"></i> Basic Package</h3>
-                    <p class="text-justify">A simple website to allow visitors to get more information about what you do, and to find information about how to contact you.</p>
+                    <h3><i class="fa fa-file-o"></i> Website</h3>
+                    <p class="text-justify">
+                      A standard website to allow visitors to get more information about who you are and what you do.
+                    </p>
                     <p><strong>Pricing from £300</strong></p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="">
-                    <h3><i class="fa fa-plus-square"></i> Advanced Package</h3>
-                    <p class="text-justify">A website built on top of a user-friendly content management system allowing you to be in regular control of your content.</p>
+                    <h3><i class="fa fa-file-code-o"></i> Web App</h3>
+                    <p class="text-justify">
+                      A dynamic web application that runs in the client's browser and works across all devices seemlessly.
+                    </p>
                     <p><strong>Pricing from £1,000</strong></p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="">
-                    <h3><i class="fa fa-shopping-cart"></i> eCommerce</h3>
-                    <p class="text-justify">A website for your shop allowing you to sell products online and to update content from a user-friendly interface.</p>
+                    <h3><i class="fa fa-plus-square"></i> Advanced</h3>
+                    <p class="text-justify">
+                      This includes projects such as setting up an eCommerce online shop, or a blog for your business.
+                    </p>
                     <p><strong>Pricing on request</strong></p>
                 </div>
             </div>
@@ -292,11 +303,11 @@
 
 
     <!--    <script src="js/vendor/jquery-1.12.0.min.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax/parallax.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/unslider-min.js"></script>
 
 
 </body>

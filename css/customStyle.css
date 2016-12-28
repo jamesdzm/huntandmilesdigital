@@ -5818,6 +5818,8 @@ p {
   background-color: transparent;
   border-color: #eb7f00;
   border-radius: 1px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   color: #eb7f00;
   letter-spacing: 2px;
   transition: all 0.5s ease;
@@ -5905,6 +5907,8 @@ nav .navbar-default {
   padding-bottom: 0px; }
 
 .hero_section {
+  background-image: url("../images/stardust.png");
+  background-repeat: repeat;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5931,6 +5935,7 @@ nav .navbar-default {
       user-select: none; }
 
 .hmdig h1 {
+  color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 6em;
@@ -5947,67 +5952,6 @@ nav .navbar-default {
 
 .hmdig i {
   color: #DB4105; }
-
-.hero_section__content {
-  text-align: right;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  position: absolute;
-  color: #FFF; }
-  .hero_section__content h1 {
-    font-size: 46px; }
-  .hero_section__content h3 {
-    font-size: 24px; }
-  @media all and (min-width: 480px) {
-    .hero_section__content {
-      text-align: right;
-      top: 50%;
-      left: 5%;
-      -webkit-transform: translate(0, -50%);
-              transform: translate(0, -50%); }
-      .hero_section__content h1 {
-        font-size: 46px; }
-      .hero_section__content h3 {
-        font-size: 16px; } }
-  @media all and (min-width: 768px) {
-    .hero_section__content {
-      text-align: right;
-      top: 50%;
-      left: 10%;
-      -webkit-transform: translate(0, -50%);
-              transform: translate(0, -50%); }
-      .hero_section__content h1 {
-        font-size: 64px; }
-      .hero_section__content h3 {
-        font-size: 18px; } }
-  @media all and (min-width: 992px) {
-    .hero_section__content {
-      text-align: right;
-      top: 50%;
-      left: 20%;
-      -webkit-transform: translate(0, -50%);
-              transform: translate(0, -50%); }
-      .hero_section__content h1 {
-        font-size: 64px; }
-      .hero_section__content h3 {
-        font-size: 18px; } }
-  @media all and (min-width: 1200px) {
-    .hero_section__content {
-      background-color: rgba(51, 51, 51, 0.5);
-      border-color: orange;
-      border-width: 1px;
-      border-style: solid;
-      border-radius: 3px;
-      text-align: center;
-      top: 90%;
-      left: 71%;
-      padding: 10px 25px; }
-      .hero_section__content h1 {
-        font-size: 90px; }
-      .hero_section__content h3 {
-        font-size: 27px; } }
 
 #key-points {
   background-color: #fff; }
@@ -6058,29 +6002,25 @@ nav .navbar-default {
       #responsive-design .responsive-design-text {
         padding: 10px 100px; } }
 
-#feeling-inspired {
-  color: #FFF;
-  background-attachment: scroll;
-  background-image: url("../images/inspired3_mobile.jpg");
-  background-repeat: no-repeat;
-  background-position: center center; }
-  #feeling-inspired .section-margin {
-    margin-top: 100px;
-    margin-bottom: 100px; }
-  #feeling-inspired .title {
-    font-size: 36px; }
-  @media all and (min-width: 1200px) {
-    #feeling-inspired {
-      background-attachment: fixed;
-      background-image: url("../images/inspired3.jpg"); }
-      #feeling-inspired .title {
-        font-size: 55px; }
-      #feeling-inspired .section-margin {
-        margin-top: 200px;
-        margin-bottom: 200px; } }
-  @media all and (min-width: 992px) {
-    #feeling-inspired .title {
-      font-size: 36px; } }
+.parallax-window {
+  min-height: 500px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .parallax-window h1 {
+    color: #fff; }
+  .parallax-window h1 small {
+    color: #e6e6e6; }
+  .parallax-window .btn-default-orange {
+    padding-left: 2em;
+    padding-right: 2em; }
 
 #pricing-section .container-fluid {
   padding-left: 25px;
