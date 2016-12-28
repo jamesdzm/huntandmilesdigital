@@ -1,5 +1,4 @@
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "customVariables";
 
 
 // GLOBAL
@@ -80,6 +79,20 @@ p {
   -webkit-transition: all 0.5s ease;
 }
 
+.btn-orange {
+  background-color: #eb7f00;
+  border-color: #eb7f00;
+  border-radius: 1px;
+  color: #FFF;
+  letter-spacing: 2px;
+  padding-left: 2em;
+  padding-right: 2em;
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
 .btn-default:hover {
     background-color: #eb7f00;
     border-color: #eb7f00;
@@ -147,13 +160,18 @@ nav .navbar-default {
 // SECTION: Hero Section
 
 .hero_section {
-    position: relative;
-    min-height: 100%;
-    background-image: url('../images/white_wall_hash.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat-y;
-    background-size: 100% auto;
+    // position: relative;
+    // min-height: 100%;
+    // background-image: url('../images/white_wall_hash.png');
+    // background-size: cover;
+    // background-position: center center;
+    // background-repeat: repeat-y;
+    // background-size: 100% auto;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .masthead-slider--wrapper {
@@ -205,7 +223,7 @@ nav .navbar-default {
 
 
 .hmdig {
-  padding-top: 200px;
+  // padding-top: 200px;
     h1 {
       // font-family: 'Open Sans', sans-serif;
       font-family: 'Raleway', sans-serif;
@@ -225,26 +243,6 @@ nav .navbar-default {
     i {
       color: #DB4105;
     }
-}
-@media all and (min-width: $screen-xs) {
-  .hmdig {
-    padding-top: 175px;
-  }
-}
-@media all and (min-width: $screen-sm) {
-  .hmdig {
-    padding-top: 150px;
-  }
-}
-@media all and (min-width: $screen-md) {
-  .hmdig {
-    padding-top: 115px;
-  }
-}
-@media all and (min-width: $screen-lg) {
-  .hmdig {
-    padding-top: 75px;
-  }
 }
 
 .hero_section__content {

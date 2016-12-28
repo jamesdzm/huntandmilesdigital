@@ -8,10 +8,6 @@ $(document).ready(function() {
 		delay : 5000
 	});
 
-	// $('.hero_section').css({
-	// 	height: $( window ).height()
-	// });
-
 	// Hero buttons jQuery smooth scroll
 	$("#learn-more").click(function() {
     $('html, body').animate({
