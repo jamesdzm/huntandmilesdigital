@@ -5934,24 +5934,27 @@ nav .navbar-default {
   -ms-user-select: none;
       user-select: none; }
 
-.hmdig h1 {
+.hmdigital h1 {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 6em;
+  font-size: 3em;
   letter-spacing: 4px; }
 
-.hmdig h2 {
+.hmdigital h2 {
   letter-spacing: 1px;
   color: #777777; }
 
-.hmdig h3 {
+.hmdigital h3 {
   font-size: 24px;
   letter-spacing: 4px;
   color: #777777; }
 
-.hmdig i {
+.hmdigital i {
   color: #DB4105; }
+
+@media all and (min-width: 480px) {
+  .hmdigital {
+    font-size: 2em; } }
 
 #key-points {
   background-color: #fff; }

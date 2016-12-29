@@ -225,14 +225,11 @@ nav .navbar-default {
 // }
 
 
-.hmdig {
-  // padding-top: 200px;
+.hmdigital {
     h1 {
-      // font-family: 'Open Sans', sans-serif;
       color: #fff;
-      font-family: 'Raleway', sans-serif;
       font-weight: 300;
-      font-size: 6em;
+      font-size: 3em;
       letter-spacing: 4px;
     }
     h2 {
@@ -246,6 +243,9 @@ nav .navbar-default {
     }
     i {
       color: #DB4105;
+    }
+    @media all and (min-width: $screen-xs-min) {
+      font-size: 2em;
     }
 }
 
@@ -345,37 +345,6 @@ nav .navbar-default {
       padding-right: 2em;
     }
 }
-
-// #feeling-inspired {
-//   color: #FFF;
-//   background-attachment: scroll;
-//   background-image: url('../images/inspired3_mobile.jpg');
-//   background-repeat: no-repeat;
-//   background-position: center center;
-//   .section-margin {
-//     margin-top: 100px;
-//     margin-bottom: 100px;
-//   }
-//   .title {
-//     font-size: $font-size-h1;
-//   }
-//   @media all and (min-width: $screen-lg-min) {
-//     background-attachment: fixed;
-//     background-image: url('../images/inspired3.jpg');
-//     .title {
-//       font-size: 55px;
-//     }
-//     .section-margin {
-//       margin-top: 200px;
-//       margin-bottom: 200px;
-//     }
-//   }
-//   @media all and (min-width: $screen-md-min) {
-//     .title {
-//       font-size: $font-size-h1;
-//     }
-//   }
-// }
 
 // SECTION: pricing
 
@@ -486,9 +455,11 @@ input {
 }
 
 // SECTION: footer
+
 .display-none {
   display: none;
 }
+
 #footer {
   background-color: #212b31;
   color: #eee;
@@ -530,5 +501,4 @@ input {
       color: lighten(#eb7f00, 10%);
     }
   }
-
 }
