@@ -5799,22 +5799,6 @@ h4 {
 p {
   font-weight: 300; }
 
-.contact-fixed {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 999;
-  padding: 20px; }
-
-.socialmedia {
-  text-align: center;
-  margin: auto; }
-
-.socialmedia li {
-  color: #FFF;
-  display: inline-block;
-  margin: 0 100px; }
-
 .btn-default {
   background-color: transparent;
   border-color: #eb7f00;
@@ -5916,6 +5900,9 @@ h1 > small {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.hideOverlay {
+  overflow: hidden; }
 
 .hmdigital h1 {
   font-size: 3em;
