@@ -5785,6 +5785,7 @@ html {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  font-size: 100%;
   background-color: #ECF0F1; }
 
 h1,
@@ -5902,10 +5903,6 @@ h1 > small {
       margin-top: 100px;
       margin-bottom: 100px; } }
 
-nav .navbar-default {
-  margin-bottom: 0px;
-  padding-bottom: 0px; }
-
 .hero_section {
   background-image: url("../images/stardust.png");
   background-repeat: repeat;
@@ -5920,25 +5917,11 @@ nav .navbar-default {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.masthead-slider--wrapper {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0); }
-
-.masthead-slider {
-  -moz-user-select: -moz-none;
-  -webkit-user-select: none;
-  -o-user-select: none;
-  -ms-user-select: none;
-      user-select: none; }
-
 .hmdigital h1 {
-  color: #fff;
-  font-weight: 300;
   font-size: 3em;
-  letter-spacing: 4px; }
+  font-weight: 300;
+  letter-spacing: 4px;
+  color: #fff; }
 
 .hmdigital h2 {
   letter-spacing: 1px;
