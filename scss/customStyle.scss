@@ -10,6 +10,10 @@
     /* Gecko Browsers */
 }
 
+.featurette-divider {
+  width: 80%;
+}
+
 // Global styles
 body,
 html {
@@ -178,7 +182,6 @@ h1 > small {
 // SECTION: Key points
 #key-points {
     background-color: #fff;
-
     .col-md-4 {
         text-align: center;
         padding: 25px;
@@ -219,7 +222,8 @@ h1 > small {
 }
 // SECTION: Responsive design
 #responsive-design {
-    background: #eee;
+    // background: #eee;
+    background-color: #fff;
 
     .col-md-5 > img {
         margin: auto;

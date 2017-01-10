@@ -5778,6 +5778,9 @@ button.close {
   background: rgba(255, 153, 0, 0.3);
   /* Gecko Browsers */ }
 
+.featurette-divider {
+  width: 80%; }
+
 body,
 html {
   width: 100%;
@@ -5954,7 +5957,7 @@ h1 > small {
     text-align: center; }
 
 #responsive-design {
-  background: #eee; }
+  background-color: #fff; }
   #responsive-design .col-md-5 > img {
     margin: auto; }
   #responsive-design h1 {

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	// All navigation links use jQuery smooth scroll
 	var $root = $('html, body');
 	$('a').click(function() {
 	    $root.animate({
