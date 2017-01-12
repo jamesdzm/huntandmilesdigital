@@ -5929,57 +5929,62 @@ h1 > small {
   .hmdigital {
     font-size: 2em; } }
 
-#key-points {
-  background-color: #fff; }
-  #key-points .col-md-4 {
-    text-align: center;
-    padding: 25px; }
-    @media all and (min-width: 480px) {
-      #key-points .col-md-4 {
-        padding: 25px 125px; } }
-    @media all and (min-width: 768px) {
-      #key-points .col-md-4 {
-        padding: 25px 125px; } }
-    @media all and (min-width: 992px) {
-      #key-points .col-md-4 {
-        padding: 50px; } }
-  #key-points h1 {
-    color: #eb7f00; }
-  #key-points h3 {
-    color: #eb7f00; }
-  #key-points i {
-    color: #777; }
-  #key-points h2 {
-    color: #eb7f00; }
-    #key-points h2 i {
-      color: #777; }
-  #key-points p {
-    text-align: center; }
+#key-points .col-md-4 {
+  text-align: center;
+  padding: 25px; }
+  @media all and (min-width: 480px) {
+    #key-points .col-md-4 {
+      padding: 25px 125px; } }
+  @media all and (min-width: 768px) {
+    #key-points .col-md-4 {
+      padding: 25px 125px; } }
+  @media all and (min-width: 992px) {
+    #key-points .col-md-4 {
+      padding: 50px; } }
 
-#responsive-design {
-  background-color: #fff; }
-  #responsive-design .col-md-5 > img {
-    margin: auto; }
-  #responsive-design h1 {
-    color: #eb7f00; }
-  #responsive-design h3 {
-    color: #eb7f00; }
-  #responsive-design i {
+#key-points h1 {
+  color: #eb7f00; }
+
+#key-points h3 {
+  color: #eb7f00; }
+
+#key-points i {
+  color: #777; }
+
+#key-points h2 {
+  color: #eb7f00; }
+  #key-points h2 i {
     color: #777; }
-  #responsive-design .responsive-design-text {
-    padding: 25px; }
-    #responsive-design .responsive-design-text .orange-accent {
-      color: #eb7f00;
-      font-style: italic; }
-    #responsive-design .responsive-design-text .row {
-      margin-top: 25px;
-      margin-bottom: 25px; }
-    @media all and (min-width: 768px) {
-      #responsive-design .responsive-design-text {
-        padding: 10px 100px; } }
+
+#key-points p {
+  text-align: center; }
+
+#responsive-design .col-md-5 > img {
+  margin: auto; }
+
+#responsive-design h1 {
+  color: #eb7f00; }
+
+#responsive-design h3 {
+  color: #eb7f00; }
+
+#responsive-design i {
+  color: #777; }
+
+#responsive-design .responsive-design-text {
+  padding: 25px; }
+  #responsive-design .responsive-design-text .orange-accent {
+    color: #eb7f00;
+    font-style: italic; }
+  #responsive-design .responsive-design-text .row {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  @media all and (min-width: 768px) {
+    #responsive-design .responsive-design-text {
+      padding: 10px 100px; } }
 
 .parallax-window {
-  min-height: 500px;
+  min-height: 250px;
   background: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6018,12 +6023,11 @@ h1 > small {
 #pricing-section .col-md-6 {
   padding: 25px; }
 
-#portfolio-section {
-  background: #FFF; }
-  #portfolio-section h1 {
-    color: #eb7f00; }
-  #portfolio-section .col-lg-6 {
-    padding: 25px; }
+#portfolio-section h1 {
+  color: #eb7f00; }
+
+#portfolio-section .col-lg-6 {
+  padding: 25px; }
 
 #contact-section h1 {
   color: #eb7f00; }
