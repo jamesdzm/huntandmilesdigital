@@ -142,9 +142,6 @@ h1 > small {
     margin: 0 auto;
 }
 
-.hero_section .img-responsive {
-  margin: 50px auto;
-}
 // SECTION: Hero Section
 .hero_section {
     // background-image: url('../images/stardust.png');
@@ -152,8 +149,8 @@ h1 > small {
     background-image: url('../images/mount_peak_2_33pc_black.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
+    // background-attachment: fixed;
+    min-height: 100vh;
     // background: transparent;
     display: flex;
     align-items: center;
