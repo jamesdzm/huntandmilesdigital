@@ -137,14 +137,19 @@ h1 > small {
 
 // SECTION: Hero Section
 .hero_section {
-    background-image: url('../images/stardust.png');
-    background-repeat: repeat;
+    // background-image: url('../images/stardust.png');
+    // background-repeat: repeat;
+    background-image: url('../images/mount_peak_2_33pc_black.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
+    // background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
-
 .hideOverlay {
   overflow: hidden;
 }

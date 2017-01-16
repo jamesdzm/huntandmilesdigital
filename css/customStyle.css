@@ -5888,8 +5888,10 @@ h1 > small {
       margin-bottom: 100px; } }
 
 .hero_section {
-  background-image: url("../images/stardust.png");
-  background-repeat: repeat;
+  background-image: url("../images/mount_peak_2_33pc_black.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5899,7 +5901,8 @@ h1 > small {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  color: #fff; }
 
 .hideOverlay {
   overflow: hidden; }

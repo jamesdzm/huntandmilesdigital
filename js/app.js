@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('#arrowBounceIn').addClass('bounceInUp');
 	var $root = $('html, body');
 	$('a').click(function() {
 	    $root.animate({
