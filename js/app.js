@@ -1,5 +1,9 @@
 $(document).ready(function() {
-	$('#arrowBounceIn').addClass('bounceInUp');
+	// $('#arrowBounceIn').addClass('bounceInUp').delay(3000);
+	$('#arrowBounceIn').delay(1000).queue(function(){
+		$(this).removeClass('hiddenSpan');
+		$(this).addClass('bounceInDown');
+	});
 	var $root = $('html, body');
 	$('a').click(function() {
 	    $root.animate({

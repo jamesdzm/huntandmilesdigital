@@ -5887,6 +5887,9 @@ h1 > small {
       margin-top: 100px;
       margin-bottom: 100px; } }
 
+.hiddenSpan {
+  visibility: hidden; }
+
 .hero_section {
   background-image: url("../images/mount_peak_2_33pc_black.jpg");
   background-size: cover;
