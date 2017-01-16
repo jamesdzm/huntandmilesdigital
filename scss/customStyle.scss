@@ -138,7 +138,13 @@ h1 > small {
 .hiddenSpan {
   visibility: hidden;
 }
+.img-responsive {
+    margin: 0 auto;
+}
 
+.hero_section .img-responsive {
+  margin: 50px auto;
+}
 // SECTION: Hero Section
 .hero_section {
     // background-image: url('../images/stardust.png');
