@@ -1,5 +1,6 @@
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
+
 ::selection {
     background: rgba(255, 153, 0, 0.3);
     /* WebKit/Blink Browsers */
@@ -19,7 +20,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 100%;
-    background-color: #ECF0F1;
+    // background-color: #ECF0F1;
 }
 // Text styling
 h1,
@@ -27,7 +28,8 @@ h2,
 h3,
 h4 {
     letter-spacing: 1px;
-    font-family: 'Ubuntu', sans-serif;
+    // font-family: 'Open Sans', sans-serif;    
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
@@ -39,11 +41,11 @@ p {
 .btn-default {
     background-color: transparent;
     border-color: #eb7f00;
-    border-radius: 1px;
+    border-radius: 2px;
     padding-left: 2rem;
     padding-right: 2rem;
     color: #eb7f00;
-    letter-spacing: 2px;
+    // letter-spacing: 2px;
     transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -51,15 +53,21 @@ p {
 }
 
 .btn-default-orange {
+    padding: 10px;
+    // width: 100%;
     background-color: #eb7f00;
     border-color: #eb7f00;
-    border-radius: 1px;
+    border-radius: 0px;
     color: #FFF;
     letter-spacing: 2px;
     transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
+}
+
+.btn-orange-icon {
+    color: darken(#EB7F00, 15%);
 }
 
 .btn-orange {
@@ -126,6 +134,19 @@ h1 > small {
     font-size: $font-size-h4;
 }
 
+h2 > small {
+    font-weight: 300;
+    color: $gray-light;
+    font-size: $font-size-h4;
+}
+
+h3 > small {
+    font-weight: 300;
+    color: $gray-light;
+    // font-size: $font-size-h4;
+}
+
+
 .section-margin {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -142,22 +163,53 @@ h1 > small {
     margin: 0 auto;
 }
 
+a {
+    color: #eb7f00;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    color: lighten(#eb7f00, 10%);
+    text-decoration: none;
+}
+
+.grey-filter {
+    filter: grayscale(70%);
+}
+
 // SECTION: Hero Section
 .hero_section {
+    position: relative;
+    // background-color: #fff;
+    background-color: #212b31;
     // background-image: url('../images/stardust.png');
     // background-repeat: repeat;
-    background-image: url('../images/mount_peak_2_33pc_black.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    // background-attachment: fixed;
-    min-height: 100vh;
+    // background-image: url('../images/mount_peak_2_33pc_black.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background-attachment: fixed;
+    // background: #232526;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    // background-color: #262829;
+
+    min-height: 70vh;
     // background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    /*color: #fff;*/
 }
-.hideOverlay {
+
+.arrow-down {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}
+
+.hide-overlay {
   overflow: hidden;
 }
 
@@ -289,7 +341,9 @@ h1 > small {
 }
 // SECTION: pricing
 #pricing-section {
+    background-color: #fff;
     .container-fluid {
+        background-color: #262829;
         padding-left: 25px;
         padding-right: 25px;
         @media all and (min-width: $screen-md-min) {
@@ -328,6 +382,7 @@ h1 > small {
 }
 // Contact form
 #contact-section {
+    background-color: #fff;
     h1 {
         color: #eb7f00;
     }
@@ -449,4 +504,72 @@ input {
             color: lighten(#eb7f00, 10%);
         }
     }
+}
+
+
+
+// More styles
+
+// .navbar-inverse {
+//     background-color: transparent;
+//     border-color: transparent;
+// }
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+.example3 .navbar-brand {
+  height: 100px;
+}
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+
+.form-test {
+}
+
+.form-side {
+}
+
+.input-control * {
+  width: 100%;
+}
+
+.hm-button-round {
+  @extend .btn;
+  @extend .btn-primary;
+  border-radius: 2px;
+  height: 50px;
+  width: 100%;
+  background-color: #EB7F00;
+  border-color: #EB7F00;
+  margin-top: 25px;
+}
+
+.mg-top {
+    margin-top: 50px;
+}
+
+.logo-padding {
+    padding: 50px;
 }

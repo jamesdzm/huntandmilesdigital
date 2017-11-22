@@ -1,9 +1,4 @@
 $(document).ready(function() {
-	// $('#arrowBounceIn').addClass('bounceInUp').delay(3000);
-	$('#arrowBounceIn').delay(1000).queue(function(){
-		$(this).removeClass('hiddenSpan');
-		$(this).addClass('bounceInDown');
-	});
 	var $root = $('html, body');
 	$('a').click(function() {
 	    $root.animate({
@@ -11,6 +6,18 @@ $(document).ready(function() {
 	    }, 500);
 	    return false;
 	});
+	// Use jQuery.waypoint to trigger on scroll
+	// Email @ on enter
+	$('#email-animate').css('opacity', 0);
+	$('#email-animate').waypoint(function(){
+		$('#email-animate').addClass('rotateIn');
+	}, {offset: '100%'});
+	// spb mobile on enter
+	// etc...
+	// $('#marketing-animate').css('opacity', 0);
+	// $('#marketing-animate').waypoint(function(){
+	// 	$('#marketing-animate').addClass('bounceInUp');
+	// }, {offset: '100%'});
 	// jQuery ajax POST for contact form submission
 	$('#contact-form').on('submit', function(e) {
 	  e.preventDefault();
