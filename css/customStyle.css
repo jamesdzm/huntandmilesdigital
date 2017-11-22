@@ -5992,8 +5992,12 @@ h3 > small {
 .img-responsive {
   margin: 0 auto; }
 
-a, a:hover {
+a, a:visited {
   color: #eb7f00;
+  text-decoration: none; }
+
+a:hover, a:active, a:focus {
+  color: #ff981f;
   text-decoration: none; }
 
 .grey-filter {
