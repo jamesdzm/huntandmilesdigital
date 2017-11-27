@@ -593,8 +593,7 @@ input {
 }
 
 .section-content {
-    @extend .col-sm-8;
-    @extend .col-sm-offset-2;
+    @extend .container;
     padding-top: 5em;
     padding-bottom: 5em;
 }
@@ -627,7 +626,7 @@ input {
     left: 0;
     position: absolute;
     right: 0;
-    transform: skewY(-1.5deg);
+    transform: skewY(-2deg);
     transform-origin: 100%;
     z-index: -1;
 }
