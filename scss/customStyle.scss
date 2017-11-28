@@ -598,26 +598,21 @@ input {
     padding-bottom: 5em;
 }
 
-.hero {
-
-}
-
-.about {
-
-}
-
 .about-text {
     @extend .col-sm-6;
 }
 
-.test {
+.hero {
+    padding-top: 5em;
+    padding-bottom: 5em;
+
     background-color: #e67e22;
     color: #fff;
     position: relative;
     z-index: 1; 
 }
 
-.test:after {
+.hero:after {
     background-color: inherit;
     bottom: 0;
     content: '';
@@ -631,3 +626,6 @@ input {
     z-index: -1;
 }
 
+.test {
+    background-color: #eee;
+}
